@@ -1,0 +1,105 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+        font-family: Arial, sans-serif;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="date"]{
+            width: 50%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="radio"]{
+            margin: 8px 0
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        p {
+            text-align: center;
+            margin: 8px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Register Here</h1>
+        <form class="registration-form">
+            <input type="text" id="name" placeholder ="Enter Name" name="NAME" required>
+
+            <label for="dob">Date of Birth: <input type="date" id="dob" name="DOB" required></label>
+            
+
+            <label>Gender:  
+            <input type="radio" name="GENDER" value="male"> Male
+            <input type="radio" name="GENDER" value="female"> Female
+            <input type="radio" name="GENDER" value="other"> Others
+            </label>
+            
+            
+            <input type="text" id="address" placeholder ="Enter Address" name="ADDRESS" required>
+            
+            <input type="text" id="city" placeholder ="Enter City" name="CITY" required>
+            
+            <input type="text" id="state" placeholder ="Enter State" name="STATE" required>
+            
+            <input type="text" id="login" placeholder ="Enter Login ID" name="LOGIN_ID" required>
+            
+            <input type="password" id="password" placeholder ="Enter Password" name="PASSWORD" required>
+
+            <input type="submit" value="Register">
+        </form>
+        <p>Already Registered? <a href="login.jsp">Sign in</a></p>
+    </div>
+</body>
+</html>

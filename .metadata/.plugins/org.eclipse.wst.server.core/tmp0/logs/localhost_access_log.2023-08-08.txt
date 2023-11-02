@@ -1,0 +1,11 @@
+127.0.0.1 - - [08/Aug/2023:09:38:05 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:09:38:13 +0530] "GET /Login_SignUp/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:09:38:13 +0530] "GET /Login_SignUp/login.jsp HTTP/1.1" 200 1402
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:09:38:15 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:09:38:24 +0530] "GET /Login_SignUp/signup.jsp HTTP/1.1" 200 2618
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:09:42:26 +0530] "POST /Login_SignUp/login HTTP/1.1" 200 4794
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:09:43:55 +0530] "GET /Login_SignUp/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:09:43:55 +0530] "GET /Login_SignUp/login.jsp HTTP/1.1" 200 1402
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:09:45:17 +0530] "POST /Login_SignUp/login HTTP/1.1" 200 4794
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:09:48:57 +0530] "GET /Login_SignUp/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:09:48:57 +0530] "GET /Login_SignUp/login.jsp HTTP/1.1" 200 1402
